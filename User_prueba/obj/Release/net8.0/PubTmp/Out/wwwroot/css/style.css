@@ -1,0 +1,82 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0d9b5;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #2980b9;
+    }
+
+
+header {
+    padding: 10px;
+    background-color: #FFE2AB;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+    margin: 10px auto 10px auto; /* Arriba, Derecha, Abajo, Izquierda */
+    width: 50%;
+    background-color: #FFE2AB;
+}
+#icono {
+    height: 100px;
+    width: 100px;
+}
+
+
+.imagen-redonda {
+    width: 70px; /* o el tamaño que quieras */
+    height: 70px;
+    object-fit: cover; /* para que no se deforme */
+    border-radius: 50%; /* hace que sea redonda */
+    background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}

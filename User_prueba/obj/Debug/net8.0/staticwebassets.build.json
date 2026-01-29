@@ -1,0 +1,5378 @@
+{
+  "Version": 1,
+  "Hash": "r2DFYZ/5dQYa1Y5YVv+t1FHRuPqomUrVEUJztAVFU+Y=",
+  "Source": "User_prueba",
+  "BasePath": "_content/User_prueba",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "User_prueba\\wwwroot",
+      "Source": "User_prueba",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Crear_Partida.html",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Crear_Partida#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqhswxozg1",
+      "Integrity": "xMy3cBEm8ugS4+4OvrgyWGM0bKJpfuNUP04RJdVtxK0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Crear_Partida.html"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Main.css",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "css/Main#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rfzos1xo2r",
+      "Integrity": "meZg2UeBN7fiB+qRrDWAmMqViSrqGzeSp+XvISrXPFQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Main.css"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\perfil.css",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "css/perfil#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bcanbpfhl8",
+      "Integrity": "G7PtSeL7cEwer1/SzIcizQyrOWZUfX76tqHJ86ZnRZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\perfil.css"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Regístrate.css",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "css/Regístrate#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "inxolv1suj",
+      "Integrity": "XuHN9EXjCut0QI+RrFSLoWUiOAgszJ9Kz7+h8qRp83c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Regístrate.css"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\style.css",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wzcsxq63wb",
+      "Integrity": "NEaY2adfpIaFYZtM1NvIBOeOrsp+u4ql0lqZb+euh9A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Usuario.css",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "css/Usuario#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1jnz6hmgjk",
+      "Integrity": "I5SVzvnVAXm3bRY4mvfXeOBHJIcwhvSGFDpna/jqgSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Usuario.css"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\aviones.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/aviones#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pu2gem6ak1",
+      "Integrity": "j8dSd67uHNTO2ZVK3h0nt8tprsQVL/7kn3LLz2XWXWw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\aviones.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopB.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/BishopB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yd7a4plgl7",
+      "Integrity": "GuSGAUsB28HIcWR+bqWpGSaEaSoRv1CrX6yQnQza/ws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\BishopB.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopB.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/BishopB#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pbl9ku3225",
+      "Integrity": "y68ZEwpPvUHDAt6n1ajFF83Q2pWczcj8x7D9eYiust8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\BishopB.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopW.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/BishopW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eptkacoqle",
+      "Integrity": "Ys33l7AzEyJK835WZ0WQLExwGpcANTZ6pXDiE5OT7/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\BishopW.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopW.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/BishopW#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0bs63ow8xr",
+      "Integrity": "NOg9ywUq1rPPnu6j4OHaF6fIPIixNRW9cEuxYUx14/w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\BishopW.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\cartel.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/cartel#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0wfmogo0nc",
+      "Integrity": "EC6OKGhcP8jA38frIZFkA8o6ltnQoFbH4fXApAIWdjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cartel.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\Guerrero.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/Guerrero#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lre7irdj3k",
+      "Integrity": "f4u4lqwXT5fd14APQCjNgenxYavfjiA4F2a/7m7xftM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Guerrero.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\icono1.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/icono1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mneor9eid9",
+      "Integrity": "zoCGSex5Jczi5rjLtpe6fln9mZIponQjJKM+clhbxeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\icono1.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\icono2.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/icono2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wu53vxn7mu",
+      "Integrity": "mOwnnZ4oPKuQbi4vUz5ErSN7mvwSinWAMQCR2Tw+51Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\icono2.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingB.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KingB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g6yeqt5iaq",
+      "Integrity": "eJ0IohqDkeLz5kObDtQc8H5rPkA2YC1vpCBni4PQsHg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KingB.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingB.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KingB#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3e2amjksgq",
+      "Integrity": "m2yJoK2oUOk359xNKIMnVRywM8aNLK0f826t/8UpaWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KingB.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingW.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KingW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kbwp8tbsv8",
+      "Integrity": "4LtXhkwlEoR8E58Zjw2JnORrM61OUnn2r3rC0Ugl4TE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KingW.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingW.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KingW#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kqpc16jcrz",
+      "Integrity": "tEndbHOwdsnBJFI/P52WHbLRaIKtlNWb4xraZc7vcSE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KingW.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightB.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KnightB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ez0tf3iq3x",
+      "Integrity": "OqUtOuyM9hA6MWOEdFXEMemfBbR7ZVpFYPCZ42X6Oz8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KnightB.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightB.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KnightB#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xmyi0k0uvv",
+      "Integrity": "2c8ozR120ex6OSpU2Seoj0yYFdUdTMhOldtIvYTxj9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KnightB.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightW.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KnightW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9x0z6xwebe",
+      "Integrity": "bVnOMS20m4peFeamvBOO5qYfNHsEwayzNIIbpSUkxx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KnightW.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightW.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/KnightW#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "02scath08k",
+      "Integrity": "+PgJkNQnT+Hh60oRTJW5gDUqrmRIj/qCZpVQLi0Pczk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\KnightW.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\move.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/move#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "obvu3vsvic",
+      "Integrity": "FDnurL+gjAAbcJ34bxY0z6mXUIk4x/QYyYBEk8KtelI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\move.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\paracaidas.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/paracaidas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i2g5584va6",
+      "Integrity": "miWRUC7YBXsWqlvRXh88inb7qq8w/BYE45RkdNzd5kE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\paracaidas.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnB.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/PawnB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "az22s2s0da",
+      "Integrity": "auDwr9Z28+uGTbuFrpbhf5i8SfBEAd0JYg/R8r5YcF8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\PawnB.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnB.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/PawnB#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9nd183ms0c",
+      "Integrity": "q7DnR4iNXGGezwSfXfIR256u0cULQtzZAc3iEGJlNB0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\PawnB.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnW.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/PawnW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kzvec3y7om",
+      "Integrity": "cPEB+K0o5SIKQ9/FyoHapIm/F/k/q5lYyK+w29Zhj5U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\PawnW.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnW.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/PawnW#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1qovypw724",
+      "Integrity": "F0sA6TrelMC0vdGHasoImkVyC0KSSzBkREo9GWExSf4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\PawnW.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil1.gif",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfil1#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i0pgk573rr",
+      "Integrity": "otpMvbwwGUAyrooK8HcOezKXuU8kZQcG9jQ9w/7SbPI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfil1.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil2.gif",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfil2#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6315ufht8w",
+      "Integrity": "PqGmoFCdJxyxHqKzwuTjp8oxYu/iidNjtWsabShvsQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfil2.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil3.gif",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfil3#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j43nhr2fys",
+      "Integrity": "bbPGcAF9CZjwcQU25CKc+4rX8la+6nnLQj75m+orJd0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfil3.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil4.gif",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfil4#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qbj17bhbhq",
+      "Integrity": "FlvPMP1axS4FAzvoWIhFJrnJ66/sUQ+PDhmdRt8fusY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfil4.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil5.gif",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfil5#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ycx1bf2pvk",
+      "Integrity": "IkZcLdfpRc9o69IpHmzPb3cmAjNLjgz0GV5QCPEMAcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfil5.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil6.gif",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfil6#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w4lkoc53mr",
+      "Integrity": "AICtvLRfgTdKZe6ODoYXIIvpreA1sPj/6U/d7tZYsCo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfil6.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfilpre.jpg",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/perfilpre#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tj9b1kwaov",
+      "Integrity": "Gfbaj14mw3N38JIkYL72p+7ITf8WeFF9hI+lWzmYskw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\perfilpre.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenB.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/QueenB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iunsnqpu3e",
+      "Integrity": "upZVpLPIhXgNCjdvyS5AlsaASbQCUP9L7Dq+HN90Qdc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\QueenB.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenB.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/QueenB#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3yfgz3lzf",
+      "Integrity": "qrn+Gh6DnPGRjLWZ2bISVGJSyrpALZdRI6ArPiiTsIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\QueenB.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenW.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/QueenW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5d4i9shvog",
+      "Integrity": "mU8PidsC2wx+9H4+/7GzXWwuOgnP6AotS2NDMyNFGW0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\QueenW.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenW.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/QueenW#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "001i4nxloq",
+      "Integrity": "cJpLDPAU1h3D21AGF7qh6Mt4wnTRNuafOZQF98gOEZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\QueenW.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookB.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/RookB#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yoff4tp2ao",
+      "Integrity": "ztpqCUvqbIazL2uoduVXjE0/7wAe080Qc+xXHZB+S6w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RookB.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookB.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/RookB#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0fe799yz6t",
+      "Integrity": "RG53bRBQto6lg537Y9zwnDNFzBpkPdxRhcmDezhx1Xs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RookB.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookW.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/RookW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1j7d6mswsx",
+      "Integrity": "o/qE9xKCd8n8uqBlL0bzFRV8mbDt+YBVXDbzeIOruSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RookW.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookW.webp",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/RookW#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gce6frh2qk",
+      "Integrity": "INnaoopcK+AbDzIPdRq5F14ovQxJ+iUByFXcm5mw5i4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RookW.webp"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\trepando.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/trepando#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ujs9hrhle",
+      "Integrity": "adAFCunqttJowljEBfA7luhoeX73fW0Bsp+ezF2ym+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\trepando.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\vaqueros.png",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Images/vaqueros#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5wiki9sveh",
+      "Integrity": "W83i3HAf2OXEXDRgzPfNhUGGfu8XLwC3Bsv/Zr6oRr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\vaqueros.png"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Main.html",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Main#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zc38ucki2z",
+      "Integrity": "/e7Nisxu4T+cMaeFfeYSrQ4WZWccx4vNVaSTiKrGndA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Main.html"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\pagina.html",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "pagina#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yb354sbdnk",
+      "Integrity": "HgQq6mo5GINFmxLNDPNR1w/7EjJy9+1/WDPidQi51Cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pagina.html"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\perfil.html",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "perfil#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ny92b98cp1",
+      "Integrity": "ETLEnWMbwPXJPNHsAdNHoqFC4zS+Re4/ticLEBXoNk4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\perfil.html"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Regístrate.html",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "Regístrate#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oo1txs2d74",
+      "Integrity": "yL463VpTyHUUdKDGg6fREYDazQPL5EhrmgEXw76KyKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Regístrate.html"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\script.js",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xi2dw0285a",
+      "Integrity": "93ElZhEEv4PaAOzwqQc3Xl4y2XX74jGOVUo0hGBgftE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\usuario.html",
+      "SourceId": "User_prueba",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\",
+      "BasePath": "_content/User_prueba",
+      "RelativePath": "usuario#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ighvwwtlhj",
+      "Integrity": "3uWzQV0YrDWtEDTZzAj3z28XBqz+/pRipCl6I4CHqOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\usuario.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Crear_Partida.cqhswxozg1.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Crear_Partida.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMy3cBEm8ugS4+4OvrgyWGM0bKJpfuNUP04RJdVtxK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 10:52:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqhswxozg1"
+        },
+        {
+          "Name": "label",
+          "Value": "Crear_Partida.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMy3cBEm8ugS4+4OvrgyWGM0bKJpfuNUP04RJdVtxK0="
+        }
+      ]
+    },
+    {
+      "Route": "Crear_Partida.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Crear_Partida.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMy3cBEm8ugS4+4OvrgyWGM0bKJpfuNUP04RJdVtxK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 10:52:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMy3cBEm8ugS4+4OvrgyWGM0bKJpfuNUP04RJdVtxK0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Main.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"meZg2UeBN7fiB+qRrDWAmMqViSrqGzeSp+XvISrXPFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Aug 2025 10:38:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-meZg2UeBN7fiB+qRrDWAmMqViSrqGzeSp+XvISrXPFQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Main.rfzos1xo2r.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"meZg2UeBN7fiB+qRrDWAmMqViSrqGzeSp+XvISrXPFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Aug 2025 10:38:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rfzos1xo2r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-meZg2UeBN7fiB+qRrDWAmMqViSrqGzeSp+XvISrXPFQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/perfil.bcanbpfhl8.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\perfil.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G7PtSeL7cEwer1/SzIcizQyrOWZUfX76tqHJ86ZnRZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 20:00:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcanbpfhl8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/perfil.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G7PtSeL7cEwer1/SzIcizQyrOWZUfX76tqHJ86ZnRZM="
+        }
+      ]
+    },
+    {
+      "Route": "css/perfil.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\perfil.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G7PtSeL7cEwer1/SzIcizQyrOWZUfX76tqHJ86ZnRZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 20:00:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G7PtSeL7cEwer1/SzIcizQyrOWZUfX76tqHJ86ZnRZM="
+        }
+      ]
+    },
+    {
+      "Route": "css/Regístrate.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Regístrate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuHN9EXjCut0QI+RrFSLoWUiOAgszJ9Kz7+h8qRp83c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 08:34:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuHN9EXjCut0QI+RrFSLoWUiOAgszJ9Kz7+h8qRp83c="
+        }
+      ]
+    },
+    {
+      "Route": "css/Regístrate.inxolv1suj.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Regístrate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuHN9EXjCut0QI+RrFSLoWUiOAgszJ9Kz7+h8qRp83c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 08:34:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "inxolv1suj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Regístrate.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuHN9EXjCut0QI+RrFSLoWUiOAgszJ9Kz7+h8qRp83c="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NEaY2adfpIaFYZtM1NvIBOeOrsp+u4ql0lqZb+euh9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 13:03:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NEaY2adfpIaFYZtM1NvIBOeOrsp+u4ql0lqZb+euh9A="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.wzcsxq63wb.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NEaY2adfpIaFYZtM1NvIBOeOrsp+u4ql0lqZb+euh9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 13:03:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wzcsxq63wb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NEaY2adfpIaFYZtM1NvIBOeOrsp+u4ql0lqZb+euh9A="
+        }
+      ]
+    },
+    {
+      "Route": "css/Usuario.1jnz6hmgjk.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Usuario.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I5SVzvnVAXm3bRY4mvfXeOBHJIcwhvSGFDpna/jqgSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 09:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1jnz6hmgjk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Usuario.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I5SVzvnVAXm3bRY4mvfXeOBHJIcwhvSGFDpna/jqgSg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Usuario.css",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\css\\Usuario.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I5SVzvnVAXm3bRY4mvfXeOBHJIcwhvSGFDpna/jqgSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 09:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I5SVzvnVAXm3bRY4mvfXeOBHJIcwhvSGFDpna/jqgSg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/aviones.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\aviones.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3280868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8dSd67uHNTO2ZVK3h0nt8tprsQVL/7kn3LLz2XWXWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j8dSd67uHNTO2ZVK3h0nt8tprsQVL/7kn3LLz2XWXWw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/aviones.pu2gem6ak1.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\aviones.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3280868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8dSd67uHNTO2ZVK3h0nt8tprsQVL/7kn3LLz2XWXWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pu2gem6ak1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/aviones.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j8dSd67uHNTO2ZVK3h0nt8tprsQVL/7kn3LLz2XWXWw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopB.pbl9ku3225.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y68ZEwpPvUHDAt6n1ajFF83Q2pWczcj8x7D9eYiust8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pbl9ku3225"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/BishopB.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y68ZEwpPvUHDAt6n1ajFF83Q2pWczcj8x7D9eYiust8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopB.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GuSGAUsB28HIcWR+bqWpGSaEaSoRv1CrX6yQnQza/ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GuSGAUsB28HIcWR+bqWpGSaEaSoRv1CrX6yQnQza/ws="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopB.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y68ZEwpPvUHDAt6n1ajFF83Q2pWczcj8x7D9eYiust8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y68ZEwpPvUHDAt6n1ajFF83Q2pWczcj8x7D9eYiust8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopB.yd7a4plgl7.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GuSGAUsB28HIcWR+bqWpGSaEaSoRv1CrX6yQnQza/ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yd7a4plgl7"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/BishopB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GuSGAUsB28HIcWR+bqWpGSaEaSoRv1CrX6yQnQza/ws="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopW.0bs63ow8xr.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NOg9ywUq1rPPnu6j4OHaF6fIPIixNRW9cEuxYUx14/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0bs63ow8xr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/BishopW.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NOg9ywUq1rPPnu6j4OHaF6fIPIixNRW9cEuxYUx14/w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopW.eptkacoqle.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ys33l7AzEyJK835WZ0WQLExwGpcANTZ6pXDiE5OT7/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eptkacoqle"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/BishopW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ys33l7AzEyJK835WZ0WQLExwGpcANTZ6pXDiE5OT7/o="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopW.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ys33l7AzEyJK835WZ0WQLExwGpcANTZ6pXDiE5OT7/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ys33l7AzEyJK835WZ0WQLExwGpcANTZ6pXDiE5OT7/o="
+        }
+      ]
+    },
+    {
+      "Route": "Images/BishopW.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\BishopW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NOg9ywUq1rPPnu6j4OHaF6fIPIixNRW9cEuxYUx14/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NOg9ywUq1rPPnu6j4OHaF6fIPIixNRW9cEuxYUx14/w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cartel.0wfmogo0nc.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\cartel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EC6OKGhcP8jA38frIZFkA8o6ltnQoFbH4fXApAIWdjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0wfmogo0nc"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/cartel.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EC6OKGhcP8jA38frIZFkA8o6ltnQoFbH4fXApAIWdjw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cartel.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\cartel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EC6OKGhcP8jA38frIZFkA8o6ltnQoFbH4fXApAIWdjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EC6OKGhcP8jA38frIZFkA8o6ltnQoFbH4fXApAIWdjw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Guerrero.lre7irdj3k.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\Guerrero.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3577890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4u4lqwXT5fd14APQCjNgenxYavfjiA4F2a/7m7xftM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lre7irdj3k"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Guerrero.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4u4lqwXT5fd14APQCjNgenxYavfjiA4F2a/7m7xftM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Guerrero.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\Guerrero.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3577890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4u4lqwXT5fd14APQCjNgenxYavfjiA4F2a/7m7xftM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4u4lqwXT5fd14APQCjNgenxYavfjiA4F2a/7m7xftM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/icono1.mneor9eid9.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\icono1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1558810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zoCGSex5Jczi5rjLtpe6fln9mZIponQjJKM+clhbxeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 11:16:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mneor9eid9"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/icono1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zoCGSex5Jczi5rjLtpe6fln9mZIponQjJKM+clhbxeY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/icono1.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\icono1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1558810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zoCGSex5Jczi5rjLtpe6fln9mZIponQjJKM+clhbxeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 11:16:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zoCGSex5Jczi5rjLtpe6fln9mZIponQjJKM+clhbxeY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/icono2.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\icono2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mOwnnZ4oPKuQbi4vUz5ErSN7mvwSinWAMQCR2Tw+51Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 11:58:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mOwnnZ4oPKuQbi4vUz5ErSN7mvwSinWAMQCR2Tw+51Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/icono2.wu53vxn7mu.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\icono2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mOwnnZ4oPKuQbi4vUz5ErSN7mvwSinWAMQCR2Tw+51Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 11:58:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wu53vxn7mu"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/icono2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mOwnnZ4oPKuQbi4vUz5ErSN7mvwSinWAMQCR2Tw+51Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingB.3e2amjksgq.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m2yJoK2oUOk359xNKIMnVRywM8aNLK0f826t/8UpaWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3e2amjksgq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KingB.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m2yJoK2oUOk359xNKIMnVRywM8aNLK0f826t/8UpaWA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingB.g6yeqt5iaq.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eJ0IohqDkeLz5kObDtQc8H5rPkA2YC1vpCBni4PQsHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g6yeqt5iaq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KingB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eJ0IohqDkeLz5kObDtQc8H5rPkA2YC1vpCBni4PQsHg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingB.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eJ0IohqDkeLz5kObDtQc8H5rPkA2YC1vpCBni4PQsHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eJ0IohqDkeLz5kObDtQc8H5rPkA2YC1vpCBni4PQsHg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingB.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m2yJoK2oUOk359xNKIMnVRywM8aNLK0f826t/8UpaWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m2yJoK2oUOk359xNKIMnVRywM8aNLK0f826t/8UpaWA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingW.kbwp8tbsv8.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4LtXhkwlEoR8E58Zjw2JnORrM61OUnn2r3rC0Ugl4TE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbwp8tbsv8"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KingW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4LtXhkwlEoR8E58Zjw2JnORrM61OUnn2r3rC0Ugl4TE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingW.kqpc16jcrz.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tEndbHOwdsnBJFI/P52WHbLRaIKtlNWb4xraZc7vcSE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kqpc16jcrz"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KingW.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tEndbHOwdsnBJFI/P52WHbLRaIKtlNWb4xraZc7vcSE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingW.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4LtXhkwlEoR8E58Zjw2JnORrM61OUnn2r3rC0Ugl4TE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4LtXhkwlEoR8E58Zjw2JnORrM61OUnn2r3rC0Ugl4TE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KingW.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KingW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tEndbHOwdsnBJFI/P52WHbLRaIKtlNWb4xraZc7vcSE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tEndbHOwdsnBJFI/P52WHbLRaIKtlNWb4xraZc7vcSE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightB.ez0tf3iq3x.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OqUtOuyM9hA6MWOEdFXEMemfBbR7ZVpFYPCZ42X6Oz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ez0tf3iq3x"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KnightB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OqUtOuyM9hA6MWOEdFXEMemfBbR7ZVpFYPCZ42X6Oz8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightB.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OqUtOuyM9hA6MWOEdFXEMemfBbR7ZVpFYPCZ42X6Oz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OqUtOuyM9hA6MWOEdFXEMemfBbR7ZVpFYPCZ42X6Oz8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightB.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2c8ozR120ex6OSpU2Seoj0yYFdUdTMhOldtIvYTxj9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2c8ozR120ex6OSpU2Seoj0yYFdUdTMhOldtIvYTxj9c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightB.xmyi0k0uvv.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2c8ozR120ex6OSpU2Seoj0yYFdUdTMhOldtIvYTxj9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xmyi0k0uvv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KnightB.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2c8ozR120ex6OSpU2Seoj0yYFdUdTMhOldtIvYTxj9c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightW.02scath08k.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+PgJkNQnT+Hh60oRTJW5gDUqrmRIj/qCZpVQLi0Pczk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02scath08k"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KnightW.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+PgJkNQnT+Hh60oRTJW5gDUqrmRIj/qCZpVQLi0Pczk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightW.9x0z6xwebe.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bVnOMS20m4peFeamvBOO5qYfNHsEwayzNIIbpSUkxx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9x0z6xwebe"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/KnightW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bVnOMS20m4peFeamvBOO5qYfNHsEwayzNIIbpSUkxx4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightW.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bVnOMS20m4peFeamvBOO5qYfNHsEwayzNIIbpSUkxx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bVnOMS20m4peFeamvBOO5qYfNHsEwayzNIIbpSUkxx4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/KnightW.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\KnightW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+PgJkNQnT+Hh60oRTJW5gDUqrmRIj/qCZpVQLi0Pczk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+PgJkNQnT+Hh60oRTJW5gDUqrmRIj/qCZpVQLi0Pczk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/move.obvu3vsvic.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\move.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3611846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FDnurL+gjAAbcJ34bxY0z6mXUIk4x/QYyYBEk8KtelI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obvu3vsvic"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/move.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FDnurL+gjAAbcJ34bxY0z6mXUIk4x/QYyYBEk8KtelI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/move.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\move.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3611846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FDnurL+gjAAbcJ34bxY0z6mXUIk4x/QYyYBEk8KtelI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FDnurL+gjAAbcJ34bxY0z6mXUIk4x/QYyYBEk8KtelI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/paracaidas.i2g5584va6.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\paracaidas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"miWRUC7YBXsWqlvRXh88inb7qq8w/BYE45RkdNzd5kE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i2g5584va6"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/paracaidas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-miWRUC7YBXsWqlvRXh88inb7qq8w/BYE45RkdNzd5kE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/paracaidas.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\paracaidas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"miWRUC7YBXsWqlvRXh88inb7qq8w/BYE45RkdNzd5kE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-miWRUC7YBXsWqlvRXh88inb7qq8w/BYE45RkdNzd5kE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnB.9nd183ms0c.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q7DnR4iNXGGezwSfXfIR256u0cULQtzZAc3iEGJlNB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nd183ms0c"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/PawnB.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q7DnR4iNXGGezwSfXfIR256u0cULQtzZAc3iEGJlNB0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnB.az22s2s0da.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"auDwr9Z28+uGTbuFrpbhf5i8SfBEAd0JYg/R8r5YcF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "az22s2s0da"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/PawnB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-auDwr9Z28+uGTbuFrpbhf5i8SfBEAd0JYg/R8r5YcF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnB.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"auDwr9Z28+uGTbuFrpbhf5i8SfBEAd0JYg/R8r5YcF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-auDwr9Z28+uGTbuFrpbhf5i8SfBEAd0JYg/R8r5YcF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnB.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q7DnR4iNXGGezwSfXfIR256u0cULQtzZAc3iEGJlNB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q7DnR4iNXGGezwSfXfIR256u0cULQtzZAc3iEGJlNB0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnW.1qovypw724.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0sA6TrelMC0vdGHasoImkVyC0KSSzBkREo9GWExSf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qovypw724"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/PawnW.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0sA6TrelMC0vdGHasoImkVyC0KSSzBkREo9GWExSf4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnW.kzvec3y7om.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cPEB+K0o5SIKQ9/FyoHapIm/F/k/q5lYyK+w29Zhj5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzvec3y7om"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/PawnW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cPEB+K0o5SIKQ9/FyoHapIm/F/k/q5lYyK+w29Zhj5U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnW.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cPEB+K0o5SIKQ9/FyoHapIm/F/k/q5lYyK+w29Zhj5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cPEB+K0o5SIKQ9/FyoHapIm/F/k/q5lYyK+w29Zhj5U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PawnW.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\PawnW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0sA6TrelMC0vdGHasoImkVyC0KSSzBkREo9GWExSf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0sA6TrelMC0vdGHasoImkVyC0KSSzBkREo9GWExSf4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil1.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"otpMvbwwGUAyrooK8HcOezKXuU8kZQcG9jQ9w/7SbPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-otpMvbwwGUAyrooK8HcOezKXuU8kZQcG9jQ9w/7SbPI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil1.i0pgk573rr.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"otpMvbwwGUAyrooK8HcOezKXuU8kZQcG9jQ9w/7SbPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i0pgk573rr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfil1.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-otpMvbwwGUAyrooK8HcOezKXuU8kZQcG9jQ9w/7SbPI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil2.6315ufht8w.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "809914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PqGmoFCdJxyxHqKzwuTjp8oxYu/iidNjtWsabShvsQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6315ufht8w"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfil2.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PqGmoFCdJxyxHqKzwuTjp8oxYu/iidNjtWsabShvsQo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil2.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "809914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PqGmoFCdJxyxHqKzwuTjp8oxYu/iidNjtWsabShvsQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PqGmoFCdJxyxHqKzwuTjp8oxYu/iidNjtWsabShvsQo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil3.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil3.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bbPGcAF9CZjwcQU25CKc+4rX8la+6nnLQj75m+orJd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bbPGcAF9CZjwcQU25CKc+4rX8la+6nnLQj75m+orJd0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil3.j43nhr2fys.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil3.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bbPGcAF9CZjwcQU25CKc+4rX8la+6nnLQj75m+orJd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j43nhr2fys"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfil3.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bbPGcAF9CZjwcQU25CKc+4rX8la+6nnLQj75m+orJd0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil4.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil4.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "556541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FlvPMP1axS4FAzvoWIhFJrnJ66/sUQ+PDhmdRt8fusY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FlvPMP1axS4FAzvoWIhFJrnJ66/sUQ+PDhmdRt8fusY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil4.qbj17bhbhq.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil4.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "556541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FlvPMP1axS4FAzvoWIhFJrnJ66/sUQ+PDhmdRt8fusY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qbj17bhbhq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfil4.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FlvPMP1axS4FAzvoWIhFJrnJ66/sUQ+PDhmdRt8fusY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil5.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil5.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IkZcLdfpRc9o69IpHmzPb3cmAjNLjgz0GV5QCPEMAcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IkZcLdfpRc9o69IpHmzPb3cmAjNLjgz0GV5QCPEMAcE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil5.ycx1bf2pvk.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil5.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IkZcLdfpRc9o69IpHmzPb3cmAjNLjgz0GV5QCPEMAcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycx1bf2pvk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfil5.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IkZcLdfpRc9o69IpHmzPb3cmAjNLjgz0GV5QCPEMAcE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil6.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil6.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AICtvLRfgTdKZe6ODoYXIIvpreA1sPj/6U/d7tZYsCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AICtvLRfgTdKZe6ODoYXIIvpreA1sPj/6U/d7tZYsCo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfil6.w4lkoc53mr.gif",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfil6.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AICtvLRfgTdKZe6ODoYXIIvpreA1sPj/6U/d7tZYsCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w4lkoc53mr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfil6.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AICtvLRfgTdKZe6ODoYXIIvpreA1sPj/6U/d7tZYsCo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfilpre.jpg",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfilpre.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gfbaj14mw3N38JIkYL72p+7ITf8WeFF9hI+lWzmYskw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gfbaj14mw3N38JIkYL72p+7ITf8WeFF9hI+lWzmYskw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/perfilpre.tj9b1kwaov.jpg",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\perfilpre.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gfbaj14mw3N38JIkYL72p+7ITf8WeFF9hI+lWzmYskw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Mar 2024 19:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tj9b1kwaov"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/perfilpre.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gfbaj14mw3N38JIkYL72p+7ITf8WeFF9hI+lWzmYskw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenB.a3yfgz3lzf.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qrn+Gh6DnPGRjLWZ2bISVGJSyrpALZdRI6ArPiiTsIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3yfgz3lzf"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/QueenB.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qrn+Gh6DnPGRjLWZ2bISVGJSyrpALZdRI6ArPiiTsIo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenB.iunsnqpu3e.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upZVpLPIhXgNCjdvyS5AlsaASbQCUP9L7Dq+HN90Qdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iunsnqpu3e"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/QueenB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-upZVpLPIhXgNCjdvyS5AlsaASbQCUP9L7Dq+HN90Qdc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenB.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upZVpLPIhXgNCjdvyS5AlsaASbQCUP9L7Dq+HN90Qdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-upZVpLPIhXgNCjdvyS5AlsaASbQCUP9L7Dq+HN90Qdc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenB.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qrn+Gh6DnPGRjLWZ2bISVGJSyrpALZdRI6ArPiiTsIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qrn+Gh6DnPGRjLWZ2bISVGJSyrpALZdRI6ArPiiTsIo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenW.001i4nxloq.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cJpLDPAU1h3D21AGF7qh6Mt4wnTRNuafOZQF98gOEZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "001i4nxloq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/QueenW.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cJpLDPAU1h3D21AGF7qh6Mt4wnTRNuafOZQF98gOEZM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenW.5d4i9shvog.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mU8PidsC2wx+9H4+/7GzXWwuOgnP6AotS2NDMyNFGW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5d4i9shvog"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/QueenW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mU8PidsC2wx+9H4+/7GzXWwuOgnP6AotS2NDMyNFGW0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenW.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mU8PidsC2wx+9H4+/7GzXWwuOgnP6AotS2NDMyNFGW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mU8PidsC2wx+9H4+/7GzXWwuOgnP6AotS2NDMyNFGW0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/QueenW.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\QueenW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cJpLDPAU1h3D21AGF7qh6Mt4wnTRNuafOZQF98gOEZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cJpLDPAU1h3D21AGF7qh6Mt4wnTRNuafOZQF98gOEZM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookB.0fe799yz6t.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RG53bRBQto6lg537Y9zwnDNFzBpkPdxRhcmDezhx1Xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0fe799yz6t"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RookB.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RG53bRBQto6lg537Y9zwnDNFzBpkPdxRhcmDezhx1Xs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookB.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ztpqCUvqbIazL2uoduVXjE0/7wAe080Qc+xXHZB+S6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ztpqCUvqbIazL2uoduVXjE0/7wAe080Qc+xXHZB+S6w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookB.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookB.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RG53bRBQto6lg537Y9zwnDNFzBpkPdxRhcmDezhx1Xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RG53bRBQto6lg537Y9zwnDNFzBpkPdxRhcmDezhx1Xs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookB.yoff4tp2ao.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookB.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ztpqCUvqbIazL2uoduVXjE0/7wAe080Qc+xXHZB+S6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yoff4tp2ao"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RookB.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ztpqCUvqbIazL2uoduVXjE0/7wAe080Qc+xXHZB+S6w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookW.1j7d6mswsx.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/qE9xKCd8n8uqBlL0bzFRV8mbDt+YBVXDbzeIOruSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1j7d6mswsx"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RookW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/qE9xKCd8n8uqBlL0bzFRV8mbDt+YBVXDbzeIOruSg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookW.gce6frh2qk.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"INnaoopcK+AbDzIPdRq5F14ovQxJ+iUByFXcm5mw5i4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gce6frh2qk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RookW.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-INnaoopcK+AbDzIPdRq5F14ovQxJ+iUByFXcm5mw5i4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookW.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/qE9xKCd8n8uqBlL0bzFRV8mbDt+YBVXDbzeIOruSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/qE9xKCd8n8uqBlL0bzFRV8mbDt+YBVXDbzeIOruSg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RookW.webp",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\RookW.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"INnaoopcK+AbDzIPdRq5F14ovQxJ+iUByFXcm5mw5i4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Apr 2025 12:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-INnaoopcK+AbDzIPdRq5F14ovQxJ+iUByFXcm5mw5i4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/trepando.1ujs9hrhle.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\trepando.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2690800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adAFCunqttJowljEBfA7luhoeX73fW0Bsp+ezF2ym+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:12:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ujs9hrhle"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/trepando.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-adAFCunqttJowljEBfA7luhoeX73fW0Bsp+ezF2ym+c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/trepando.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\trepando.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2690800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adAFCunqttJowljEBfA7luhoeX73fW0Bsp+ezF2ym+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:12:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-adAFCunqttJowljEBfA7luhoeX73fW0Bsp+ezF2ym+c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vaqueros.5wiki9sveh.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\vaqueros.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4243598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W83i3HAf2OXEXDRgzPfNhUGGfu8XLwC3Bsv/Zr6oRr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wiki9sveh"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/vaqueros.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W83i3HAf2OXEXDRgzPfNhUGGfu8XLwC3Bsv/Zr6oRr8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vaqueros.png",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Images\\vaqueros.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4243598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W83i3HAf2OXEXDRgzPfNhUGGfu8XLwC3Bsv/Zr6oRr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W83i3HAf2OXEXDRgzPfNhUGGfu8XLwC3Bsv/Zr6oRr8="
+        }
+      ]
+    },
+    {
+      "Route": "Main.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/e7Nisxu4T+cMaeFfeYSrQ4WZWccx4vNVaSTiKrGndA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 20:07:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/e7Nisxu4T+cMaeFfeYSrQ4WZWccx4vNVaSTiKrGndA="
+        }
+      ]
+    },
+    {
+      "Route": "Main.zc38ucki2z.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/e7Nisxu4T+cMaeFfeYSrQ4WZWccx4vNVaSTiKrGndA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 20:07:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zc38ucki2z"
+        },
+        {
+          "Name": "label",
+          "Value": "Main.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/e7Nisxu4T+cMaeFfeYSrQ4WZWccx4vNVaSTiKrGndA="
+        }
+      ]
+    },
+    {
+      "Route": "pagina.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\pagina.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HgQq6mo5GINFmxLNDPNR1w/7EjJy9+1/WDPidQi51Cw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 Jan 2026 20:33:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HgQq6mo5GINFmxLNDPNR1w/7EjJy9+1/WDPidQi51Cw="
+        }
+      ]
+    },
+    {
+      "Route": "pagina.yb354sbdnk.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\pagina.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HgQq6mo5GINFmxLNDPNR1w/7EjJy9+1/WDPidQi51Cw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 Jan 2026 20:33:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yb354sbdnk"
+        },
+        {
+          "Name": "label",
+          "Value": "pagina.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HgQq6mo5GINFmxLNDPNR1w/7EjJy9+1/WDPidQi51Cw="
+        }
+      ]
+    },
+    {
+      "Route": "perfil.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\perfil.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ETLEnWMbwPXJPNHsAdNHoqFC4zS+Re4/ticLEBXoNk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ETLEnWMbwPXJPNHsAdNHoqFC4zS+Re4/ticLEBXoNk4="
+        }
+      ]
+    },
+    {
+      "Route": "perfil.ny92b98cp1.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\perfil.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ETLEnWMbwPXJPNHsAdNHoqFC4zS+Re4/ticLEBXoNk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ny92b98cp1"
+        },
+        {
+          "Name": "label",
+          "Value": "perfil.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ETLEnWMbwPXJPNHsAdNHoqFC4zS+Re4/ticLEBXoNk4="
+        }
+      ]
+    },
+    {
+      "Route": "Regístrate.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Regístrate.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yL463VpTyHUUdKDGg6fREYDazQPL5EhrmgEXw76KyKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 20:47:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yL463VpTyHUUdKDGg6fREYDazQPL5EhrmgEXw76KyKs="
+        }
+      ]
+    },
+    {
+      "Route": "Regístrate.oo1txs2d74.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\Regístrate.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yL463VpTyHUUdKDGg6fREYDazQPL5EhrmgEXw76KyKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 20:47:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oo1txs2d74"
+        },
+        {
+          "Name": "label",
+          "Value": "Regístrate.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yL463VpTyHUUdKDGg6fREYDazQPL5EhrmgEXw76KyKs="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"93ElZhEEv4PaAOzwqQc3Xl4y2XX74jGOVUo0hGBgftE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 Jan 2026 20:27:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-93ElZhEEv4PaAOzwqQc3Xl4y2XX74jGOVUo0hGBgftE="
+        }
+      ]
+    },
+    {
+      "Route": "script.xi2dw0285a.js",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"93ElZhEEv4PaAOzwqQc3Xl4y2XX74jGOVUo0hGBgftE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 Jan 2026 20:27:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xi2dw0285a"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-93ElZhEEv4PaAOzwqQc3Xl4y2XX74jGOVUo0hGBgftE="
+        }
+      ]
+    },
+    {
+      "Route": "usuario.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\usuario.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3uWzQV0YrDWtEDTZzAj3z28XBqz+/pRipCl6I4CHqOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 09:05:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3uWzQV0YrDWtEDTZzAj3z28XBqz+/pRipCl6I4CHqOU="
+        }
+      ]
+    },
+    {
+      "Route": "usuario.ighvwwtlhj.html",
+      "AssetFile": "C:\\Users\\yerko\\source\\repos\\User_prueba\\ChessApp\\User_prueba\\wwwroot\\usuario.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3uWzQV0YrDWtEDTZzAj3z28XBqz+/pRipCl6I4CHqOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 09:05:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ighvwwtlhj"
+        },
+        {
+          "Name": "label",
+          "Value": "usuario.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3uWzQV0YrDWtEDTZzAj3z28XBqz+/pRipCl6I4CHqOU="
+        }
+      ]
+    }
+  ]
+}

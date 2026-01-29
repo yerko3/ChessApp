@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <title>Yk-Iniciar Sesión</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/perfil.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="Main.html"><img src="Images/icono2.png" alt="Icono principal" id="icono"></a>
+        <img id="user-avatar" alt="avatar" class="imagen-redonda" style="display: none;">
+    </header>
+
+    <main>
+        <div id="CajaPequeña">
+            <form id="loginForm" method="post">
+                <hr>
+                <h2>Iniciar Sesión</h2>
+                <p>¿Es tu primera vez? <a href="Regístrate.html" style="color: #348F90; text-decoration: none;">Regístrate</a></p>
+                <br><br>
+                <span id="Username">
+                    <div class="input-wrapper">
+ 
+                        <input class="input-box" type="email" name="correo" id="email" size="40" required placeholder=" @    Username"><br><br><br>
+                        <span class="underline"></span>
+                    </div>
+ 
+                    <div class="input-wrapper">
+                        <input class="input-box" type="password" name="pass" id="password" size="40" required placeholder="🔒   password"><br>
+                        <span class="underline"></span>
+                    </div>
+                </span>
+                <br><br>
+
+                <button type="submit" class="btn2">
+                    <span class="spn2">Enviar</span>
+                </button>
+            </form>
+            <br>
+            <hr>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

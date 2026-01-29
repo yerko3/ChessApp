@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de Ajedrez</title>
+    <style>
+
+.menu {
+    display: none;
+}
+.botones-panel {
+    display: flex;
+}
+        @media (max-width : 600px){
+                .menu {
+                    display: flex;
+                                }
+                .botones-panel {
+                    display: none;
+                }
+                .button{
+                    display: none;
+                }
+            header{
+                flex-direction : column;
+                align-items : center;
+                height:auto;
+                font-size: 20px;
+            }
+            .tablero-contenedor {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            .jugador-superior,
+            .jugador-inferior {
+                margin-left: 0;
+                margin-top: 10px;
+                justify-content: flex-start;
+                text-align: right;
+            }
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F8F4E1;
+        }
+
+
+        canvas {
+            display: block;
+            width: 100%;
+            max-width: 650px;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            background-color: white;
+            border: 6px solid black;
+        }
+
+        header {
+            padding: 10px;
+            background-color: #FFE2AB;
+            display: flex;
+            justify-content: space-between;
+            height: 130px;
+            font-size: 25px;
+            margin: 10px;
+        }    
+
+        #icono {
+            height: 100px;
+            width: 100px;
+        }
+
+
+        .imagen-redonda {
+            width: 70px; 
+            height: 70px;
+            object-fit: cover; 
+            border-radius: 50%; 
+            background-position: center;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .tablero-contenedor {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start; 
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .botones-panel {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #matchStatus {
+            margin-top: 20px;
+            background: white;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .jugador-inferior {
+            margin-left: 530px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            margin-left: 10px;
+        }
+        .jugador-superior {
+            margin-left: 530px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            margin-left: 10px;
+        }
+        .model-container {
+            display: none; /* oculto por defecto */
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5); /* fondo oscuro */
+            z-index: 9999;
+            font-family: Tahoma, sans-serif;
+        }
+
+            .model-container.active {
+                display: flex;
+            }
+
+            .model-container .model {
+                height: 400px;
+                max-width: 350px;
+                margin: 0 10px;
+                padding: 20px;
+                background: #FFE2AB;
+                border-radius: 5px;
+                text-align: center;
+                position: relative;
+                font-family: Tahoma, sans-serif;
+                transition: all 0.2s linear;
+            }
+
+            .model-container .close-container {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .model-container .container-game {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                margin-top: 20px;
+            }
+
+            .model-container .player {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+                .model-container .player img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                    border: 2px solid #ccc;
+                }
+
+            .model-container .nombre-jugador {
+                margin-top: 8px;
+                font-size: 14px;
+                max-width: 80px;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-transform: capitalize;
+            }
+
+            .model-container .vs-text {
+                font-weight: bold;
+                font-size: 18px;
+                color: #333;
+                text-transform: uppercase;
+            }
+
+            .model-container .crear-partida {
+                margin-top: 30px;
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: #fff;
+                color: black;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.2s;
+            }
+
+                .model-container .crear-partida:hover {
+                    background-color: #348F90;
+                }
+
+                .menu {
+  padding: 0.5rem;
+  background-color: #fff;
+  position: relative;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px 0 rgba(#000, 0.075);
+}
+
+.link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transform-origin: center left;
+  transition: width 0.2s ease-in;
+  text-decoration: none;
+  color: inherit;
+  &:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: translateX(100%);
+    transition: transform 0.2s ease-in;
+    transform-origin: center right;
+    background-color: #eee;
+  }
+
+  &:hover,
+  &:focus {
+    outline: 0;
+    width: 130px;
+
+    &:before,
+    .link-title {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+
+.link-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  flex-shrink: 0;
+  left: 18px;
+  position: absolute;
+  svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.link-title {
+  transform: translateX(100%);
+  transition: transform 0.2s ease-in;
+  transform-origin: center right;
+  display: block;
+  text-align: center;
+  text-indent: 28px;
+  width: 100%;
+}
+/* botón personalizado */
+.button {
+  --stone-50: #fafaf9;
+  --stone-800: #292524;
+  --yellow-400: #FFE2AB;
+
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  padding: 1px;
+  transform: translate(-4px, -4px);
+  outline: 2px solid transparent;
+  outline-offset: 5px;
+  border-radius: 9999px;
+  background-color: var(--stone-800);
+  color: var(--stone-800);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+  text-align: center;
+  box-shadow:
+    0.5px 0.5px 0 0 var(--stone-800),
+    1px 1px 0 0 var(--stone-800),
+    1.5px 1.5px 0 0 var(--stone-800),
+    2px 2px 0 0 var(--stone-800),
+    2.5px 2.5px 0 0 var(--stone-800),
+    3px 3px 0 0 var(--stone-800),
+    0 0 0 2px var(--stone-50),
+    0.5px 0.5px 0 2px var(--stone-50),
+    1px 1px 0 2px var(--stone-50),
+    1.5px 1.5px 0 2px var(--stone-50),
+    2px 2px 0 2px var(--stone-50),
+    2.5px 2.5px 0 2px var(--stone-50),
+    3px 3px 0 2px var(--stone-50),
+    3.5px 3.5px 0 2px var(--stone-50),
+    4px 4px 0 2px var(--stone-50);
+}
+
+.button:hover {
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 2px var(--stone-50);
+}
+
+.button:active,
+.button:focus-visible {
+  outline-color: var(--yellow-400);
+}
+
+.button:focus-visible {
+  outline-style: dashed;
+}
+
+.button > div {
+  position: relative;
+  pointer-events: none;
+  background-color: var(--yellow-400);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+}
+
+.button > div::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  opacity: 0.5;
+  background-image: radial-gradient(
+      rgb(255 255 255 / 80%) 20%,
+      transparent 20%
+    ),
+    radial-gradient(rgb(255 255 255 / 100%) 20%, transparent 20%);
+  background-position: 0 0, 4px 4px;
+  background-size: 8px 8px;
+  mix-blend-mode: hard-light;
+  animation: dots 0.5s infinite linear;
+}
+
+.button > div > span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+  gap: 0.25rem;
+  filter: drop-shadow(0 -1px 0 rgba(255, 255, 255, 0.25));
+}
+
+.button > div > span:active {
+  transform: translateY(2px);
+}   
+.botones-panel{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="Main.html"><img src="Images/icono2.png" alt="Error" id="icono"></a>
+        <img id="user-avatar" alt="avatar" class="imagen-redonda" style="display: none;" />
+    </header>
+    <div class="zona-juego">
+        <div class="jugador-superior">
+            <img id="opponent-avatar" class="imagen-avatar imagen-redonda" style="display: none;" />
+            <span id="opponent-name" class="nombre-jugador" style="display: none;"></span>
+        </div>
+
+        <div class="tablero-contenedor">
+            <div id="matchStatus"></div>
+            <canvas id="chessboard" width="650" height="650"></canvas> 
+            <div class="botones-panel">
+                <button onclick="EmpezarPartida()" class="button"> <div><span>Empezar Partida</span></div></button>
+                <button onclick="updateFigures()" class="button"><div><span>Actualizar Tablero</span></div></button> <!-- solo pinta -->
+                <button onclick="mostrarEstado()" class="button"><div><span>Estado de la Partida</span></div></button> <!-- solo muestra -->
+                <button onclick="toggleTimer()" class="button"><div><span>Activar/Desactivar Timer</span></div></button>
+                <button onclick="ReiniciarPartida()" class="button"><div><span>Reiniciar Partida</span></div></button>
+            </div>
+
+        </div>
+        <div class="jugador-inferior">
+            <img id="player-avatar" class="imagen-avatar imagen-redonda" style="display: none;" />
+            <span id="player-name" class="nombre-jugador" style="display: none;"></span>
+        </div>
+    </div>
+<div class="menu">
+  <a href="javascript:void(0)" class="link" onclick="EmpezarPartida()">
+    <span class="link-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="192"
+        height="192"
+        fill="currentColor"
+        viewBox="0 0 256 256"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <polyline
+          points="76.201 132.201 152.201 40.201 216 40 215.799 103.799 123.799 179.799"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></polyline>
+        <line
+          x1="100"
+          y1="156"
+          x2="160"
+          y2="96"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></line>
+        <path
+          d="M82.14214,197.45584,52.201,227.397a8,8,0,0,1-11.31371,0L28.603,215.11268a8,8,0,0,1,0-11.31371l29.94113-29.94112a8,8,0,0,0,0-11.31371L37.65685,141.65685a8,8,0,0,1,0-11.3137l12.6863-12.6863a8,8,0,0,1,11.3137,0l76.6863,76.6863a8,8,0,0,1,0,11.3137l-12.6863,12.6863a8,8,0,0,1-11.3137,0L93.45584,197.45584A8,8,0,0,0,82.14214,197.45584Z"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></path>
+      </svg>    </span>
+    <span class="link-title">Start</span>
+  </a>
+  <a href="javascript:void(0)" class="link" onclick="updateFigures()">
+    <span class="link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M240,56v48a8,8,0,0,1-8,8H184a8,8,0,0,1,0-16H211.4L184.81,71.64l-.25-.24a80,80,0,1,0-1.67,114.78,8,8,0,0,1,11,11.63A95.44,95.44,0,0,1,128,224h-1.32A96,96,0,1,1,195.75,60L224,85.8V56a8,8,0,1,1,16,0Z"></path></svg>
+    </span>
+    <span class="link-title">Update</span>
+  </a>
+  <a href="javascript:void(0)" class="link" onclick="mostrarEstado()">
+    <span class="link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,128Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,160Z"></path></svg>
+    </span>
+    <span class="link-title">State</span>
+  </a>
+
+  <a href="javascript:void(0)" class="link" onclick="toggleTimer()">
+    <span class="link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M232,136.66A104.12,104.12,0,1,1,119.34,24,8,8,0,0,1,120.66,40,88.12,88.12,0,1,0,216,135.34,8,8,0,0,1,232,136.66ZM120,72v56a8,8,0,0,0,8,8h56a8,8,0,0,0,0-16H136V72a8,8,0,0,0-16,0Zm40-24a12,12,0,1,0-12-12A12,12,0,0,0,160,48Zm36,24a12,12,0,1,0-12-12A12,12,0,0,0,196,72Zm24,36a12,12,0,1,0-12-12A12,12,0,0,0,220,108Z"></path></svg>
+    </span>
+    <span class="link-title">Timer</span>
+  </a>
+  <a href="javascript:void(0)" class="link"  onclick="ReiniciarPartida()">
+    <span class="link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z"></path></svg>
+    </span>
+    <span class="link-title">Reset</span>
+  </a>
+</div>
+
+
+
+
+    <div class="model-container" id="modal">
+        <div class="model">
+            <div class="close-container">
+                <button class="close">❌</button>
+            </div>
+
+            <h3 id="ganador-texto">El Usuario *** ha Ganado</h3>
+
+            <div class="container-game">
+                <div class="player">
+                    <img id="img-jugador" src="" alt="Jugador">
+                    <span id="nombre-jugador" class="nombre-jugador">Jugador</span>
+                </div>
+
+                <div class="vs-text">VS</div>
+
+                <div class="player">
+                    <img id="img-oponente" src="" alt="Oponente">
+                    <span id="nombre-oponente" class="nombre-jugador">Oponente</span>
+                </div>
+            </div>
+
+            <button class="crear-partida" onclick="window.location.href='Crear_Partida.html'">CREAR PARTIDA</button>
+        </div>
+    </div>
+    <script>
+        const API_URL = "https://localhost:5051";
+
+        //const API_URL = location.hostname === "localhost"
+          //  ? "https://localhost:5051"
+            //: "https://chessapp3-a4chcke6bvhkgwbw.eastus-01.azurewebsites.net";
+
+    
+
+        const canvas = document.getElementById("chessboard");
+        const ctx = canvas.getContext("2d");
+        let tileSize = 0;
+
+        const imageCache = {};
+        const figures = [];
+        const availablePositions = [];
+        let selectedCell = null;
+        const imageList = [
+            "Images/PawnW.png",
+            "Images/PawnB.png",
+            "Images/RookW.png",
+            "Images/RookB.png",
+            "Images/KnightW.png",
+            "Images/KnightB.png",
+            "Images/BishopW.png",
+            "Images/BishopB.png",
+            "Images/QueenW.png",
+            "Images/QueenB.png",
+            "Images/KingW.png",
+            "Images/KingB.png"
+        ];
+
+        let timerId = null;
+
+        let gameData = {
+            matchName: null,
+            userid: null,
+            ownerId:null,
+            ownerName: null,
+            opponentName: null,
+            opponentId: null,
+            opponentImg : null,
+            ownerImg : null,
+            isLoaded: false
+        };
+
+        let you = {
+                name : null,
+                image : null
+            }
+        let opponent = {
+                name : null,
+                image : null
+            }
+        function isGameDataLoaded() {
+            return gameData.isLoaded;
+        }
+
+        function waitForGameData() {
+            return new Promise((resolve) => {
+                if (gameData.isLoaded) {
+                    resolve();
+                } else {
+                    const checkInterval = setInterval(() => {
+                        if (gameData.isLoaded) {
+                            clearInterval(checkInterval);
+                            resolve();
+                        }
+                    }, 100);
+                }
+            });
+        }
+
+
+
+        function toggleTimer() {
+            if (timerId === null) {
+                timerId = setInterval(updateFigures, 1000);
+                console.log("Timer activado");
+            } else {
+                clearInterval(timerId);
+                timerId = null;
+                console.log("Timer detenido");
+            }
+        }
+        function highlightCheckPosition(kingX, kingY) {
+            ctx.fillStyle = "rgba(255, 0, 0, 0.4)";
+            ctx.fillRect(kingX * tileSize, kingY * tileSize, tileSize, tileSize);
+        }
+        async function updateFigures() {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/match`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ MatchName: gameData.matchName }) 
+            })
+                .then(response => response.json())
+                .then(data => drawMatch(data))
+                .catch(error => {
+                    alert("Error al obtener datos del servidor");
+                    console.error(error);
+                });
+        }
+        async function mostrarEstado() {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/status`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ MatchName: gameData.matchName })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    let html = `
+                        <table border="1" cellpadding="5" style="margin-top: 10px; background: white;">
+                            <tr><th>Propiedad</th><th>Valor</th></tr>
+                            <tr><td>Match Name</td><td>${data.name}</td></tr>
+                            <tr><td>Dueño</td><td>${gameData.ownerName}</td></tr>
+                            <tr><td>Oponente</td><td>${gameData.opponentName}</td></tr>
+                            <tr><td>Próximo Turno</td><td>${data.nextPlayerId === data.ownerId ? "Negras" : "Blancas"}</td></tr>
+                            <tr><td>Ganador</td><td>${data.winnerId || "Ninguno"}</td></tr>
+                            <tr><td>¿Iniciada?</td><td>${data.isStarted ? "Sí" : "No"}</td></tr>
+                            <tr><td>¿Completada?</td><td>${data.isCompleted ? "Sí" : "No"}</td></tr>
+                        </table>
+                    `;
+
+                    if (data.isInCheck && !data.isCompleted) {
+                        html += `<div style="color: red; font-weight: bold; font-size: 18px;">
+                                    ¡${data.nextPlayerId} está en JAQUE!
+                                 </div>`;
+                    }
+                    document.getElementById("matchStatus").innerHTML = html;
+                })
+                .catch(error => console.error("Error al obtener el estado de la partida:", error));
+        }
+
+        async function loadTwoUserProfile(){
+            try{
+             const response = await fetch(`${API_URL}/chess/TwoUsers`,{
+                method:"GET",
+                credentials:"include"
+             });
+             if(response.ok){
+                const userdata = await response.json();
+                console.log(userdata);
+                
+                // Actualizar variables globales
+                gameData.matchName = userdata.you.matchName;
+                gameData.ownerId = userdata.you.id;
+                gameData.ownerName = userdata.you.name;
+                gameData.opponentName = userdata.opponent.name;
+                gameData.opponentId = userdata.opponent.id;
+                gameData.opponentImg = userdata.opponent.image;
+                gameData.ownerImg = userdata.you.image;
+
+                gameData.isLoaded = true;
+                
+                you.image = gameData.ownerImg;
+                you.name = gameData.ownerName;
+                opponent.image = gameData.opponentImg;
+                opponent.name = gameData.opponentName;
+
+            setUserInfo("player-avatar","player-name",you);
+            setUserInfo("opponent-avatar","opponent-name",opponent);
+
+
+             }
+
+            }
+            catch(error){
+                console.error("Error al cargar el perfil", error.message)
+            }
+        }
+
+        async function loadUserProfile() {
+        try {
+            const response = await fetch(`${API_URL}/user/profile`, {
+                method: "GET",
+                credentials: "include" 
+            });
+            
+            if (response.ok) {
+                const userData = await response.json();
+                
+                const avatar = document.getElementById("user-avatar");
+                if (avatar) {
+                    avatar.src = userData.image;
+                    avatar.style.display = "block";
+                }
+                
+                const nameElement = document.getElementById("user-name");
+                if (nameElement) {
+                    nameElement.textContent = userData.name;
+                    nameElement.style.display = "block";
+                }
+                gameData.userid = userData.id;
+
+
+            } else if (response.status === 401) {
+                console.log("Usuario no autenticado");
+            } else {
+                console.error("Error al obtener perfil del usuario");
+            }
+        } catch (error) {
+            console.error("Error al cargar perfil:", error);
+        }
+    }
+
+        function drawMatch(data) {
+            console.log("Datos recibidos:", data); 
+            figures.length = 0;
+            const figureTypes = {
+                0: "King",
+                1: "Queen",
+                2: "Rook",
+                3: "Bishop",
+                4: "Knight",
+                5: "Pawn",
+                6: "NONE"
+            };
+
+            for (const f of data.figures) {
+                const color = f.figureColor === 0 ? "BLACK" : "WHITE";
+                const type = figureTypes[f.figureType] || "NONE";
+                console.log(`Figura: ${type}${color} en (${f.x}, ${f.y})`);
+                figures.push({ type, color, x: f.x, y: f.y });
+            }
+            drawBoard(ctx, tileSize);
+            highlightSelectedCell(ctx, tileSize, selectedCell);
+            drawFigures(ctx, tileSize, figures);
+            drawAvailablePositions(ctx, tileSize, availablePositions);
+        }
+        function ajustarCanvas() {
+            const contenedor = document.querySelector(".tablero-contenedor");
+            const size = Math.min(contenedor.clientWidth || window.innerWidth - 40, 650);
+            canvas.width = size;
+            canvas.height = size;
+            tileSize = size / 8;
+
+            drawBoard(ctx, tileSize);
+            drawFigures(ctx, tileSize, figures);
+            drawAvailablePositions(ctx, tileSize, availablePositions);
+            highlightSelectedCell(ctx, tileSize, selectedCell);
+        }
+
+
+        function preloadImages(imageList, callback) {
+            let loadedCount = 0;
+            for (const fileName of imageList) {
+                const img = new Image();
+                img.src = fileName;
+                img.onload = () => {
+                    imageCache[fileName] = img;
+                    loadedCount++;
+                    if (loadedCount === imageList.length) callback();
+                };
+            }
+        }
+        async function EmpezarPartida() {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/startMatch`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ MatchName: gameData.matchName })
+            })
+                .then(async response => {
+                    if (!response.ok) {
+                        const errorText = await response.text(); 
+                        throw new Error(errorText);
+                    }
+                    return response.text(); 
+                })
+                .then(msg => {
+                    console.log("✅ Partida iniciada:", msg);
+                    alert(msg); 
+                    updateFigures(); 
+                })
+                .catch(error => {
+                    console.error("Error creando partida:", error);
+                    alert("⚠️ " + error.message);
+                });
+        }
+
+
+        function getImage(fileName) {
+            return imageCache[fileName];
+        }
+
+        function drawImage(col, row, fileName) {
+            const img = getImage(fileName);
+            console.log(`Dibujando imagen: ${fileName} en (${col}, ${row})`);
+            if (!img) {
+                console.warn("Imagen no encontrada:", fileName);
+                return;
+            }
+            ctx.drawImage(img, col * tileSize, row * tileSize, tileSize, tileSize);
+        }
+
+        function drawBoard(ctx, tileSize) {
+            for (let y = 0; y < 8; y++) {
+                for (let x = 0; x < 8; x++) {
+                    ctx.fillStyle = (x + y) % 2 === 0 ? "#348F90" : "white";
+                    ctx.fillRect(x * tileSize, y * tileSize, tileSize, tileSize);
+                }
+            }
+        }
+        async function ReiniciarPartida() {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/restart`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ MatchName: gameData.matchName })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success || data.succeded) {
+                        alert("✅ La partida se ha reiniciado correctamente.");
+                        updateFigures(); 
+                    } else {
+                        alert("⚠️ Error reiniciando la partida.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error reiniciando la partida:", error);
+                    alert("⚠️ Error reiniciando la partida: " + error.message);
+                });
+        }
+
+        async function fetchMoveFigure(fromX, fromY, toX, toY) {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/move`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    playerName: gameData.matchName, 
+                    sourceX: fromX,
+                    sourceY: fromY,
+                    destinationX: toX,
+                    destinationY: toY
+                })
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error("Movimiento inválido");
+                    return response.json();
+                })
+                .then(data => {
+                    console.log("Movimiento realizado:", data);
+                    selectedCell = null;
+                    availablePositions.length = 0;
+                    updateFigures(); 
+                })
+                .catch(error => {
+                    alert("Error al mover la pieza: " + error.message);
+                });
+        }
+
+        function drawFigures(ctx, tileSize, figures) {
+            for (const f of figures) {
+                let name = `${f.type}${f.color === "WHITE" ? "W" : "B"}`;
+                drawImage(f.x, f.y, `Images/${name}.png`);
+            }
+        }
+        function drawAvailablePositions(ctx, tileSize, positions) {
+            ctx.fillStyle = "rgba(255, 0, 0, 0.3)"; 
+
+            for (const pos of positions) {
+                ctx.fillRect(pos.x * tileSize, pos.y * tileSize, tileSize, tileSize);
+            }
+        }
+
+
+        preloadImages(imageList, () => {
+            ajustarCanvas(); 
+
+        });
+
+        function isAvailbalePostion(x, y) {
+            for (const pos of availablePositions) {
+                if (pos.x === x && pos.y === y) return true;
+            }
+            return false;
+        }
+        function highlightSelectedCell(ctx, tileSize, cell) {
+            if (!cell) return;
+            ctx.fillStyle = "rgba(0, 128, 255, 0.4)"; 
+            ctx.fillRect(cell.x * tileSize, cell.y * tileSize, tileSize, tileSize);
+        }
+
+
+        async function fetchAvailablePositions(x, y) {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/avpos`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    PlayerName: gameData.matchName,
+                    x: x,
+                    y: y
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Posiciones disponibles:", data);
+                    availablePositions.length = 0;
+                    for (const pos of data.availableCoords) {
+                        availablePositions.push(pos);
+                    }
+
+                    drawBoard(ctx, tileSize);
+                    highlightSelectedCell(ctx, tileSize, selectedCell);
+                    drawFigures(ctx, tileSize, figures);
+                    drawAvailablePositions(ctx, tileSize, availablePositions);
+                })
+                .catch(error => {
+                    console.error("Error al pedir posiciones disponibles:", error);
+                });
+        }
+        async function initializeStatus() {
+            await waitForGameData();
+            fetch(`${API_URL}/chess/status`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ MatchName: gameData.matchName })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("matchStatus").innerHTML = `
+                                <table border="1" cellpadding="5" style="margin-top: 10px; background: white;">
+                                    <tr><th>Propiedad</th><th>Valor</th></tr>
+                                    <tr><td>Nombre</td><td>${data.name}</td></tr>
+                                    <tr><td>Dueño</td><td>${ownerName}</td></tr>
+                                    <tr><td>Oponente</td><td>${opponentName}</td></tr>
+                                    <tr><td>Próximo Turno</td><td>${data.nextPlayerId}</td></tr> <!-- 👈 aquí -->
+                                    ...
+                                                                 </table>
+                             `;
+             });
+         }
+
+
+        canvas.addEventListener("click", function (event) {
+            const rect = canvas.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            const col = Math.floor(x / tileSize);
+            const row = Math.floor(y / tileSize);
+
+            const figuraSeleccionada = figures.find(f => f.x === col && f.y === row);
+
+            if (selectedCell && isAvailbalePostion(col, row)) {
+                fetchMoveFigure(selectedCell.x, selectedCell.y, col, row);
+                selectedCell = null;
+                availablePositions.length = 0;
+                return;
+            }
+
+             console.log(gameData.userid)
+             esMiTurno(gameData.matchName, gameData.userid, esTurno => {
+                if (!esTurno) {
+                    alert("No es tu turno.");
+                    selectedCell = null;
+                    availablePositions.length = 0;
+                    return;
+                }
+                if (figuraSeleccionada && esFiguraDelJugador(figuraSeleccionada)) {
+                    selectedCell = { x: col, y: row }; 
+                    fetchAvailablePositions(col, row);
+                } else {
+                    selectedCell = null;
+                    availablePositions.length = 0;
+                    drawBoard(ctx, tileSize);
+                    drawFigures(ctx, tileSize, figures);
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            loadUserProfile();
+            loadTwoUserProfile();
+        });
+
+        function setUserInfo(imgId, nameId, user) {
+            const img = document.getElementById(imgId);
+            const name = document.getElementById(nameId);
+
+            if (img && user.image) {
+                img.src = user.image;
+                img.style.display = "block";
+            }
+
+            if (name && user.name) {
+                name.textContent = user.name;
+                name.style.display = "block";
+            }
+        }
+        async function esMiTurno(matchName, userId, callback) {
+            await waitForGameData();
+
+            fetch(`${API_URL}/chess/status`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ MatchName: gameData.matchName })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log("siguiente turno", data.nextPlayerId)
+                    console.log("user id pero creo que varia ",  gameData.userid)
+                    const esTurno = parseInt(data.nextPlayerId) === parseInt(gameData.userid);
+                    console.log(esTurno)
+                    callback(esTurno); 
+                })
+                .catch(error => {
+                    console.error("Error verificando turno:", error);
+                    callback(false); 
+                });
+        }
+        console.log("este el deberia : ", esTurno)
+        const userId = parseInt(gameData.userid);
+        esMiTurno(matchName, userId, esTurno => {
+            console.log("¿Callback llamado? Resultado:", esTurno);
+
+            console.log(esTurno)
+            if (!esTurno) {
+                alert("No es tu turno.");
+                selectedCell = null;
+                availablePositions.length = 0;
+                return;
+            }
+
+            alert("Sí es tu turno, puedes jugar.");
+        });
+        function esFiguraDelJugador(figura) {
+            const userId = gameData.userid;
+            const ownerId = gameData.ownerId;
+            const isWhite = figura.color === "WHITE";
+
+            console.log((isWhite && userId === ownerId) || (!isWhite && userId !== ownerId));
+            return (isWhite && userId === ownerId) || (!isWhite && userId !== ownerId);
+        } 
+        const modal = document.getElementById("modal");
+        function mostrarModalJaqueMate(ownerName, jugadorImg, oponenteImg, ownerName, opponentName) {
+            const jugadorNombre = document.getElementById("player-name").textContent;
+            const oponenteNombre = document.getElementById("opponent-name").textContent;
+
+            document.getElementById("ganador-texto").textContent = `SE ACABO LA PARTIDA! :)`;
+            document.getElementById("img-jugador").src = jugadorImg;
+            document.getElementById("img-oponente").src = oponenteImg;
+            document.getElementById("nombre-jugador").textContent = jugadorNombre;
+            document.getElementById("nombre-oponente").textContent = oponenteNombre;
+
+            modal.classList.add("active");
+        }
+
+
+        function verificarJaqueMate() {
+            fetch(`${API_URL}/chess/isCheckmate`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    matchName: gameData.matchName,
+                    playerId: parseInt(gameData.userid)
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.result)
+                    if (data.isCheckmate === true) {
+                        const jugadorImg2 = document.getElementById("player-avatar")?.src || "jugador.png";
+                        const oponenteImg2 = document.getElementById("opponent-avatar")?.src || "oponente.png";
+                        mostrarModalJaqueMate(ownerName, jugadorImg2, oponenteImg2, ownerName, opponentName);
+                    }
+                })
+                .catch(error => {
+                    console.error("Error al verificar jaque mate:", error);
+                });
+        }
+
+        setInterval(verificarJaqueMate, 2000);
+
+        document.addEventListener("click", e => {
+            if (e.target.classList.contains("close")) {
+                modal.classList.remove("active");
+            }
+        });
+
+        window.addEventListener("resize", ajustarCanvas);
+        ajustarCanvas();
+
+    </script>
+</body>
+</html>

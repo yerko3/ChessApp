@@ -1,0 +1,14 @@
+C:\Users\yerko\source\repos\User_prueba\chessEngine\bin\Release\net8.0\chessEngine.exe
+C:\Users\yerko\source\repos\User_prueba\chessEngine\bin\Release\net8.0\chessEngine.deps.json
+C:\Users\yerko\source\repos\User_prueba\chessEngine\bin\Release\net8.0\chessEngine.runtimeconfig.json
+C:\Users\yerko\source\repos\User_prueba\chessEngine\bin\Release\net8.0\chessEngine.dll
+C:\Users\yerko\source\repos\User_prueba\chessEngine\bin\Release\net8.0\chessEngine.pdb
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.AssemblyInfoInputs.cache
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.AssemblyInfo.cs
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.csproj.CoreCompileInputs.cache
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.dll
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\refint\chessEngine.dll
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.pdb
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\chessEngine.genruntimeconfig.cache
+C:\Users\yerko\source\repos\User_prueba\chessEngine\obj\Release\net8.0\ref\chessEngine.dll

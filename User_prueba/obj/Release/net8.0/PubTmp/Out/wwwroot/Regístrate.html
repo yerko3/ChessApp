@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <title>Yk-Registrate</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegura responsive -->
+    <link rel="stylesheet" type="text/css" href="css/Regístrate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+</head>
+
+<body>
+    
+    <div id="header">
+        <a href="Main.html"><img src="Images/icono2.png" alt="Error" id="icono"></a>
+
+    </div>
+    <div id="layout-container">
+
+        <div id="aside1"></div>
+        <div id="main">
+            <fieldset>
+
+                <legend>Datos personales</legend>
+                <br>
+
+
+                <form id="miformulario" action="/procesar_formulario" method="post">
+
+                    <div id="profile-container">
+                        <label for="profile-dropdown">Selecciona un perfil:</label>
+                        <select id="profile-dropdown" onchange="selectProfile()">
+                            <option value="default">Opciones</option>
+                            <option value="profile1">Perfil 1</option>
+                            <option value="profile2">Perfil 2</option>
+                            <option value="profile3">Perfil 3</option>
+                            <option value="profile4">Perfil 4</option>
+                            <option value="profile5">Perfil 5</option>
+                            <option value="profile6">Perfil 6</option>
+
+                            <!-- Agrega más perfiles según sea necesario -->
+                        </select>
+                        <div id="avatar-preview">
+                            <!-- El avatar seleccionado se mostrará aquí -->
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="input-wrapper">
+                        Usuario<br>
+                        <input class="input-box" type="text" name="usuario" size="50" placeholder="Escriba su usuario" id="name" required>
+                        <span class="underline"></span>
+                    </div>
+                    <div class="input-wrapper">
+                        Email<br> <input class="input-box" type="email" name="correo" size="50" placeholder="Escriba su correo" id="email" required><br><br>
+                        <span class="underline"></span>
+                    </div>
+                    <div class="input-wrapper">
+                        Contraseña <br><input class="input-box" type="password" name="pass" placeholder="Escribe tu contraseña" id="password" required><br><br>
+                        <span class="underline"></span>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="submit">
+                        <a href="#" class="btn2"><span class="spn2">Enviar</span></a>
+                    </button>
+                </form><br><br>
+
+                Ya estás registrado, <a href="perfil.html" id="red">inicia Sesión</a>
+            </fieldset>
+        </div>
+        <div id="aside2"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

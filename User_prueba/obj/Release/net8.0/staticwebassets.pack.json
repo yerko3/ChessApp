@@ -1,0 +1,233 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Crear_Partida.html",
+      "PackagePath": "staticwebassets\\Crear_Partida.html"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\BishopB.png",
+      "PackagePath": "staticwebassets\\Images\\BishopB.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\BishopB.webp",
+      "PackagePath": "staticwebassets\\Images\\BishopB.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\BishopW.png",
+      "PackagePath": "staticwebassets\\Images\\BishopW.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\BishopW.webp",
+      "PackagePath": "staticwebassets\\Images\\BishopW.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\Guerrero.png",
+      "PackagePath": "staticwebassets\\Images\\Guerrero.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KingB.png",
+      "PackagePath": "staticwebassets\\Images\\KingB.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KingB.webp",
+      "PackagePath": "staticwebassets\\Images\\KingB.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KingW.png",
+      "PackagePath": "staticwebassets\\Images\\KingW.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KingW.webp",
+      "PackagePath": "staticwebassets\\Images\\KingW.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KnightB.png",
+      "PackagePath": "staticwebassets\\Images\\KnightB.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KnightB.webp",
+      "PackagePath": "staticwebassets\\Images\\KnightB.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KnightW.png",
+      "PackagePath": "staticwebassets\\Images\\KnightW.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\KnightW.webp",
+      "PackagePath": "staticwebassets\\Images\\KnightW.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\PawnB.png",
+      "PackagePath": "staticwebassets\\Images\\PawnB.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\PawnB.webp",
+      "PackagePath": "staticwebassets\\Images\\PawnB.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\PawnW.png",
+      "PackagePath": "staticwebassets\\Images\\PawnW.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\PawnW.webp",
+      "PackagePath": "staticwebassets\\Images\\PawnW.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\QueenB.png",
+      "PackagePath": "staticwebassets\\Images\\QueenB.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\QueenB.webp",
+      "PackagePath": "staticwebassets\\Images\\QueenB.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\QueenW.png",
+      "PackagePath": "staticwebassets\\Images\\QueenW.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\QueenW.webp",
+      "PackagePath": "staticwebassets\\Images\\QueenW.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\RookB.png",
+      "PackagePath": "staticwebassets\\Images\\RookB.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\RookB.webp",
+      "PackagePath": "staticwebassets\\Images\\RookB.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\RookW.png",
+      "PackagePath": "staticwebassets\\Images\\RookW.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\RookW.webp",
+      "PackagePath": "staticwebassets\\Images\\RookW.webp"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\aviones.png",
+      "PackagePath": "staticwebassets\\Images\\aviones.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\cartel.png",
+      "PackagePath": "staticwebassets\\Images\\cartel.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\icono1.png",
+      "PackagePath": "staticwebassets\\Images\\icono1.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\icono2.png",
+      "PackagePath": "staticwebassets\\Images\\icono2.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\move.png",
+      "PackagePath": "staticwebassets\\Images\\move.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\paracaidas.png",
+      "PackagePath": "staticwebassets\\Images\\paracaidas.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfil1.gif",
+      "PackagePath": "staticwebassets\\Images\\perfil1.gif"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfil2.gif",
+      "PackagePath": "staticwebassets\\Images\\perfil2.gif"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfil3.gif",
+      "PackagePath": "staticwebassets\\Images\\perfil3.gif"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfil4.gif",
+      "PackagePath": "staticwebassets\\Images\\perfil4.gif"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfil5.gif",
+      "PackagePath": "staticwebassets\\Images\\perfil5.gif"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfil6.gif",
+      "PackagePath": "staticwebassets\\Images\\perfil6.gif"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\perfilpre.jpg",
+      "PackagePath": "staticwebassets\\Images\\perfilpre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\trepando.png",
+      "PackagePath": "staticwebassets\\Images\\trepando.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Images\\vaqueros.png",
+      "PackagePath": "staticwebassets\\Images\\vaqueros.png"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Main.html",
+      "PackagePath": "staticwebassets\\Main.html"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\Regístrate.html",
+      "PackagePath": "staticwebassets\\Regístrate.html"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\css\\Main.css",
+      "PackagePath": "staticwebassets\\css\\Main.css"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\css\\Regístrate.css",
+      "PackagePath": "staticwebassets\\css\\Regístrate.css"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\css\\Usuario.css",
+      "PackagePath": "staticwebassets\\css\\Usuario.css"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\css\\perfil.css",
+      "PackagePath": "staticwebassets\\css\\perfil.css"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\pagina.html",
+      "PackagePath": "staticwebassets\\pagina.html"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\perfil.html",
+      "PackagePath": "staticwebassets\\perfil.html"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\yerko\\source\\repos\\User_prueba\\User_prueba\\wwwroot\\usuario.html",
+      "PackagePath": "staticwebassets\\usuario.html"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.User_prueba.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.User_prueba.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.User_prueba.props",
+      "PackagePath": "build\\User_prueba.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.User_prueba.props",
+      "PackagePath": "buildMultiTargeting\\User_prueba.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.User_prueba.props",
+      "PackagePath": "buildTransitive\\User_prueba.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lobby de Partidas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegura responsive -->
+
+</head>
+<body>
+    <header>
+        <a href="Main.html"><img src="Images/icono2.png" alt="Error" id="icono"></a>
+        <img id="user-avatar" alt="avatar" class="imagen-redonda" style="display: none;" />
+    </header>
+
+    <div>
+        <h1>Crear Partida</h1>
+        <form id="createForm">
+            <label>Nombre de la partida:</label>
+            <input type="text" id="matchName" required>
+            <button type="submit">Crear</button>
+        </form>
+
+        <hr>
+
+        <h1>Unirse a Partida</h1>
+        <form id="joinForm">
+            <label>Selecciona una partida:</label>
+            <select id="matchList"></select>
+            <button type="submit">Unirse</button>
+        </form>
+    </div>
+
+    <script>
+        const API_URL = location.hostname === "localhost"
+            ? "https://localhost:5051"
+            : "https://chessapp3-a4chcke6bvhkgwbw.eastus-01.azurewebsites.net";
+
+        window.onload = () => {
+
+            fetch(`${API_URL}/chess/matches`)
+                .then(r => r.json())
+                .then(data => {
+                    const matchList = document.getElementById("matchList");
+                    for (const match of data) {
+                        if (!match.opponentId) { // si el oponente no existe intentara añadir la partida a la lista
+                            const opt = document.createElement("option");
+                            opt.value = match.name;
+                            opt.text = match.name;
+                            matchList.appendChild(opt);
+                        }
+                    }
+                });
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+                loadUserProfile();
+        });
+
+        let userId = null;
+        async function loadUserProfile() {
+            try {
+                const response = await fetch(`${API_URL}/user/profile`, {
+                    method: "GET",
+                    credentials: "include" // Importante: envía la cookie JWT automáticamente
+                });
+                
+                if (response.ok) {
+                    const userData = await response.json();
+                    
+                    // Mostrar avatar si existe el elemento
+                    const avatar = document.getElementById("user-avatar");
+                    if (avatar) {
+                        avatar.src = userData.image;
+                        avatar.style.display = "block";
+                    }
+                    
+                    // Mostrar nombre si existe el elemento
+                    const nameElement = document.getElementById("user-name");
+                    if (nameElement) {
+                        nameElement.textContent = userData.name;
+                        nameElement.style.display = "block";
+                    }
+                    console.log(userData.id)
+                    userId = userData.id;
+
+                } else if (response.status === 401) {
+                    // Usuario no autenticado, no mostrar nada
+                    console.log("Usuario no autenticado");
+                } else {
+                    console.error("Error al obtener perfil del usuario");
+                }
+            } catch (error) {
+                console.error("Error al cargar perfil:", error);
+            }
+}
+
+        const matchName = document.getElementById("matchName").value.trim();
+
+
+        document.getElementById("createForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+        const matchName = document.getElementById("matchName").value.trim();
+
+            fetch(`${API_URL}/chess/createMatch`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    matchName: matchName,
+                    ownerId: userId
+                })
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error("No se pudo crear la partida");
+                    return response.json();
+                })
+                .then(data => {
+                    alert("Partida creada correctamente.");
+                    console.log("Partida creada:", data);
+                    window.location.href = "pagina.html"; // redirección opcional
+                })
+                .catch(error => {
+                    console.error("Error al crear partida:", error);
+                    alert("Error creando partida: " + error.message);
+                });
+        });
+
+        document.getElementById("joinForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const opponentId = parseInt(userId); // aqui tengo la dudda 
+            const matchName = document.getElementById("matchList").value;
+
+            fetch(`${API_URL}/chess/joinMatch`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ matchName, opponentId })
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error("No se pudo unir a la partida");
+                    sessionStorage.setItem("matchName", matchName); // ✅ ESTA LÍNEA ES CLAVE
+                    alert("Te uniste a la partida correctamente.");
+                    window.location.href = "pagina.html"; // redirección opcional
+                })
+                .catch(error => {
+                    console.error("Error al unirse:", error);
+                    alert("Error al unirse a la partida: " + error.message);
+                });
+        });
+
+    </script>
+</body>
+</html>

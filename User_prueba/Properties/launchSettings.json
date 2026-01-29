@@ -1,0 +1,11 @@
+﻿{
+    "profiles": {
+        "User_prueba": {
+            "commandName": "Project",
+            "applicationUrl": "https://localhost:7245;https://localhost:5160;https://localhost:5051",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

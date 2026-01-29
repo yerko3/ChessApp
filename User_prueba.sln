@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User_prueba", "User_prueba\User_prueba.csproj", "{044A1EBE-89EC-4DC0-87C5-FECBBD5C8D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chessEngine", "chessEngine\chessEngine.csproj", "{1DC91BF6-7AFC-40A8-9EC6-887D920DAE18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044A1EBE-89EC-4DC0-87C5-FECBBD5C8D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044A1EBE-89EC-4DC0-87C5-FECBBD5C8D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044A1EBE-89EC-4DC0-87C5-FECBBD5C8D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044A1EBE-89EC-4DC0-87C5-FECBBD5C8D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC91BF6-7AFC-40A8-9EC6-887D920DAE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC91BF6-7AFC-40A8-9EC6-887D920DAE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC91BF6-7AFC-40A8-9EC6-887D920DAE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC91BF6-7AFC-40A8-9EC6-887D920DAE18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {638D9870-63CD-4CFA-B946-683177131360}
+	EndGlobalSection
+EndGlobal
